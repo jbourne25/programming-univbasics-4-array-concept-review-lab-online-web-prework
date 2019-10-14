@@ -7,14 +7,11 @@
   
   
 def find_element_index(array, value_to_find)
-  array = [2,3,4,5]
-  value_to_find = []
-  
-  while array < array.length do
-    puts array.index
-     end
-  value_to_find
-end
+  array.length.times do |count|
+    if array[count] == value_to_find
+  end
+      return count
+  end
 
 def find_max_value(array)
   # Add your solution here

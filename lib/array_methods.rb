@@ -1,5 +1,19 @@
+  # this method should return the index of the value passed in
+  # if value is not found output will be NIL
+  # must loop over provided array and compare each value
+  # in the array to the value provided
+  # but this is not the value that should be returned
+  # scale = [2,3,4,5]
+  
+  
 def find_element_index(array, value_to_find)
-  # Add your solution here
+  array = [2,3,4,5]
+  value_to_find = []
+  
+  while array < array.length do
+    puts array.index
+     end
+  value_to_find
 end
 
 def find_max_value(array)
